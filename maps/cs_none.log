@@ -1,0 +1,263 @@
+hlcsg v3.4 Final (Feb 25 2006)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (amckern@yahoo.com)
+-----  BEGIN  hlcsg -----
+Command line: C:\VALVEH~1\tools\hlcsg.exe "C:\Program Files (x86)\Counter-Strike 1.6\cstrike\maps\cs_none"
+Entering C:\Program Files (x86)\Counter-Strike 1.6\cstrike\maps\cs_none.map
+
+Current hlcsg Settings
+Name                 |  Setting  |  Default
+---------------------|-----------|-------------------------
+threads               [       4 ] [  Varies ]
+verbose               [     off ] [     off ]
+log                   [      on ] [      on ]
+developer             [       0 ] [       0 ]
+chart                 [     off ] [     off ]
+estimate              [     off ] [     off ]
+max texture memory    [ 4194304 ] [ 4194304 ]
+max lighting memory   [ 6291456 ] [ 6291456 ]
+priority              [  Normal ] [  Normal ]
+
+noclip                [     off ] [     off ]
+null texture stripping[      on ] [      on ]
+clipnode economy mode [      on ] [      on ]
+clip hull type        [  legacy ] [  legacy ]
+onlyents              [     off ] [     off ]
+wadtextures           [      on ] [      on ]
+skyclip               [      on ] [      on ]
+hullfile              [    None ] [    None ]
+nullfile              [    None ] [    None ]
+min surface area      [   0.500 ] [   0.500 ]
+brush union threshold [   0.000 ] [   0.000 ]
+
+Using mapfile wad configuration
+Wadinclude list :
+[zhlt.wad]
+
+0 brushes (totalling 0 sides) discarded from clipping hulls
+CreateBrush:
+ (0.01 seconds)
+SetModelCenters:
+ (0.00 seconds)
+CSGBrush:
+ (0.09 seconds)
+
+Including Wadfile: \program files (x86)\counter-strike 1.6\cstrike\zhlt.wad
+ - Contains 3 used textures, 7.32 percent of map (8 textures in wad)
+Using Wadfile: \program files (x86)\counter-strike 1.6\cstrike\cstrike.wad
+ - Contains 3 used textures, 7.32 percent of map (123 textures in wad)
+Using Wadfile: \program files (x86)\counter-strike 1.6\cstrike\halflife.wad
+ - Contains 27 used textures, 65.85 percent of map (3116 textures in wad)
+Using Wadfile: \program files (x86)\counter-strike 1.6\cstrike\cs_snowbase.wad
+ - Contains 0 used textures, 0.00 percent of map (33 textures in wad)
+Using Wadfile: \program files (x86)\counter-strike 1.6\cstrike\cs_office.wad
+ - Contains 3 used textures, 7.32 percent of map (102 textures in wad)
+Using Wadfile: \program files (x86)\counter-strike 1.6\cstrike\cs_assault.wad
+ - Contains 3 used textures, 7.32 percent of map (22 textures in wad)
+Using Wadfile: \program files (x86)\counter-strike 1.6\cstrike\tswad.wad
+ - Contains 0 used textures, 0.00 percent of map (29 textures in wad)
+Using Wadfile: \program files (x86)\counter-strike 1.6\cstrike\cs_havana.wad
+ - Contains 2 used textures, 4.88 percent of map (122 textures in wad)
+Using Wadfile: \program files (x86)\counter-strike 1.6\valve\decals.wad
+ - Contains 0 used textures, 0.00 percent of map (222 textures in wad)
+Using Wadfile: \program files (x86)\counter-strike 1.6\valve\fonts.wad
+ - Contains 0 used textures, 0.00 percent of map (3 textures in wad)
+Using Wadfile: \program files (x86)\counter-strike 1.6\cstrike\prodigy.wad
+ - Contains 0 used textures, 0.00 percent of map (2 textures in wad)
+
+Warning: More than 8 wadfiles are in use. (11)
+This may be harmless, and if no strange side effects are occurring, then
+it can safely be ignored. However, if your map starts exhibiting strange
+or obscure errors, consider this as suspect.
+
+
+added 7 additional animating textures.
+Texture usage is at 1.16 mb (of 4.00 mb MAX)
+0.14 seconds elapsed
+
+-----   END   hlcsg -----
+
+
+
+hlbsp v3.4 Final (Feb 25 2006)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (amckern@yahoo.com)
+-----  BEGIN  hlbsp -----
+Command line: C:\VALVEH~1\tools\hlbsp.exe "C:\Program Files (x86)\Counter-Strike 1.6\cstrike\maps\cs_none"
+
+Current hlbsp Settings
+Name               |  Setting  |  Default
+-------------------|-----------|-------------------------
+threads             [       4 ] [  Varies ]
+verbose             [     off ] [     off ]
+log                 [      on ] [      on ]
+developer           [       0 ] [       0 ]
+chart               [     off ] [     off ]
+estimate            [     off ] [     off ]
+max texture memory  [ 4194304 ] [ 4194304 ]
+priority            [  Normal ] [  Normal ]
+
+noclip              [     off ] [     off ]
+nofill              [     off ] [     off ]
+noopt               [     off ] [     off ]
+null tex. stripping [      on ] [      on ]
+notjunc             [     off ] [     off ]
+subdivide size      [     240 ] [     240 ] (Min 64) (Max 512)
+max node size       [    1024 ] [    1024 ] (Min 64) (Max 8192)
+
+
+SolidBSP [hull 0] 500...865 (0.02 seconds)
+BSP generation successful, writing portal file 'C:\Program Files (x86)\Counter-Strike 1.6\cstrike\maps\cs_none.prt'
+SolidBSP [hull 1] 500...801 (0.02 seconds)
+SolidBSP [hull 2] 500...803 (0.02 seconds)
+SolidBSP [hull 3] 500...809 (0.02 seconds)
+0.34 seconds elapsed
+
+-----   END   hlbsp -----
+
+
+
+hlvis v3.4 Final (Feb 25 2006)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (amckern@yahoo.com)
+-----  BEGIN  hlvis -----
+Command line: C:\VALVEH~1\tools\hlvis.exe "C:\Program Files (x86)\Counter-Strike 1.6\cstrike\maps\cs_none"
+ 554 portalleafs
+1902 numportals
+
+-= Current hlvis Settings =-
+Name               |  Setting  |  Default
+-------------------|-----------|-------------------------
+threads             [       4 ] [  Varies ]
+verbose             [     off ] [     off ]
+log                 [      on ] [      on ]
+developer           [       0 ] [       0 ]
+chart               [     off ] [     off ]
+estimate            [     off ] [     off ]
+max texture memory  [ 4194304 ] [ 4194304 ]
+max vis distance    [       0 ] [       0 ]
+priority            [  Normal ] [  Normal ]
+
+fast vis            [     off ] [     off ]
+full vis            [     off ] [     off ]
+
+
+BasePortalVis:
+ (0.07 seconds)
+LeafThread:
+ (6.38 seconds)
+Warning: Leaf portals saw into leaf
+    Problem at portal between leaves 441 and 450:
+       (-1082.000 -1124.000 256.000)
+    (-1082.017 -1123.000 256.000)
+    (-1082.017 -1123.000 404.000)
+    (-1082.000 -1124.000 404.000)
+
+average leafs visible: 225
+g_visdatasize:32404  compressed from 38780
+6.49 seconds elapsed
+
+-----   END   hlvis -----
+
+
+
+hlrad v3.4 Final (Feb 25 2006)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (amckern@yahoo.com)
+-----  BEGIN  hlrad -----
+Command line: C:\VALVEH~1\tools\hlrad.exe -extra "C:\Program Files (x86)\Counter-Strike 1.6\cstrike\maps\cs_none"
+
+-= Current hlrad Settings =-
+Name                | Setting             | Default
+--------------------|---------------------|-------------------------
+threads              [                 4 ] [            Varies ]
+verbose              [               off ] [               off ]
+log                  [                on ] [                on ]
+developer            [                 0 ] [                 0 ]
+chart                [               off ] [               off ]
+estimate             [               off ] [               off ]
+max texture memory   [           4194304 ] [           4194304 ]
+max lighting memory  [           6291456 ] [           6291456 ]
+priority             [            Normal ] [            Normal ]
+
+vismatrix algorithm  [          Original ] [          Original ]
+oversampling (-extra)[                on ] [               off ]
+bounces              [                 1 ] [                 1 ]
+bounce dynamic light [                on ] [                on ]
+ambient light        [ 0.000 0.000 0.000 ] [ 0.000 0.000 0.000 ]
+maximum light        [           255.000 ] [           256.000 ]
+circus mode          [               off ] [               off ]
+
+smoothing threshold  [            50.000 ] [            50.000 ]
+direct threshold     [            25.000 ] [            25.000 ]
+direct light scale   [             2.000 ] [             2.000 ]
+coring threshold     [             1.000 ] [             1.000 ]
+patch interpolation  [                on ] [                on ]
+
+texscale             [                on ] [                on ]
+patch subdividing    [                on ] [                on ]
+chop value           [            64.000 ] [            64.000 ]
+texchop value        [            32.000 ] [            32.000 ]
+
+global fade          [             1.000 ] [             1.000 ]
+global falloff       [                 2 ] [                 2 ]
+global light scale   [ 1.000 1.000 1.000 ] [ 1.000 1.000 1.000 ]
+global gamma         [ 0.500 0.500 0.500 ] [ 0.500 0.500 0.500 ]
+global light scale   [             1.000 ] [             1.000 ]
+global sky diffusion [             1.000 ] [             1.000 ]
+
+opaque entities      [                on ] [                on ]
+sky lighting fix     [                on ] [                on ]
+incremental          [               off ] [               off ]
+dump                 [               off ] [               off ]
+
+colour jitter        [       0.0 0.0 0.0 ] [       0.0 0.0 0.0 ]
+monochromatic jitter [       0.0 0.0 0.0 ] [       0.0 0.0 0.0 ]
+softlight hack       [   0.0 0.0 0.0 0.0 ] [   0.0 0.0 0.0 0.0 ]
+diffuse hack         [                on ] [                on ]
+spotlight points     [                on ] [                on ]
+
+custom shadows with bounce light
+                     [               off ] [               off ]
+rgb transfers        [               off ] [               off ]
+
+
+[Reading texlights from 'C:\VALVEH~1\tools\lights.rad']
+[62 texlights parsed from 'C:\VALVEH~1\tools\lights.rad']
+
+1591 faces
+Create Patches : 10503 base patches
+0 opaque faces
+116614 square feet [16792508.00 square inches]
+2 direct lights
+
+BuildFacelights:
+ (5.46 seconds)
+visibility matrix   :   6.6 megs
+BuildVisLeafs:
+ (1.64 seconds)
+MakeScales:
+ (0.28 seconds)
+SwapTransfers:
+ (0.23 seconds)
+Transfer Lists :    10441566 :   10.44M transfers
+       Indices :     5857304 :    5.59M bytes
+          Data :    41766264 :   39.83M bytes
+GatherLight:
+ (0.11 seconds)
+FinalLightFace:
+ (0.14 seconds)
+7.94 seconds elapsed
+
+-----   END   hlrad -----
+
+
+
